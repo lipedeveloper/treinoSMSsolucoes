@@ -20,6 +20,9 @@ class Home extends MY_Controller {
 	 */
 	public function index()
 	{
+
+		$this->load->model('User_model');
+		$this->data['usuarios'] = $this->User_model->getAll();
 		$this->render();
 	}
 }
