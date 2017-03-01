@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class About extends CI_Controller {
+class About extends MY_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,9 +20,7 @@ class About extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('layout/head',array('title' => 'About'));
-		$this->load->view('layout/menu',array('menu' => 'about'));
-		$this->load->view('about');
-		$this->load->view('layout/footer');
+		 	
+		 	$this->render();
 	}
 }

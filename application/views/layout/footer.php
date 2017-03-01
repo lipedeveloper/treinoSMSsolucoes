@@ -9,11 +9,11 @@
       var active = "<?= $menu ?>";
 
 
-     if(active == "home"){
+     if(active == "Home"){
         $('#home').addClass('active');
-     }else if(active == 'contact'){
+     }else if(active == 'Contact'){
      	 $('#contact').addClass('active');
-     }else if(active == 'about'){
+     }else if(active == 'About'){
      	 $('#about').addClass('active');
      }
     });
