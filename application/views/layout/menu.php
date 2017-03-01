@@ -17,9 +17,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
      
       <ul class="nav navbar-nav navbar-left">
-        <li id="home"><a href="#">Home</a></li>
-        <li id="about"><a href="#">About</a></li>
-        <li id="contact"><a href="#">Contact</a></li>
+        <li id="home"><a href="./Home">Home</a></li>
+        <li id="about"><a href="./About">About</a></li>
+        <li id="contact"><a href="./Contact">Contact</a></li>
          
       </ul>
     </div><!-- /.navbar-collapse -->

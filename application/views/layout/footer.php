@@ -11,6 +11,10 @@
 
      if(active == "home"){
         $('#home').addClass('active');
+     }else if(active == 'contact'){
+     	 $('#contact').addClass('active');
+     }else if(active == 'about'){
+     	 $('#about').addClass('active');
      }
     });
 
